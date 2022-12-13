@@ -27,34 +27,57 @@
 
 //Console.WriteLine(array[0]);
 
+//string address = "Baku";
+//string address2 = address;
+//address2 = "New York";
+
+//Console.WriteLine(address);
+//Console.WriteLine(address2);
+
 #endregion
 
 
 
+#region String methods
+
+//string test = "   Hello   ";
+
+//Console.WriteLine(test.ToUpper());
+//Console.WriteLine(test.ToLower());
+//Console.WriteLine(test.Trim());
+//Console.WriteLine(test.Substring(2));
+
+//string test2 = "Ali";
+
+//Console.WriteLine(test2.EndsWith("i"));
+//Console.WriteLine(test2.StartsWith("B"));
+//Console.WriteLine(test2.Contains("l"));
+
+#endregion
+
+
 #region Task
 
-Console.BackgroundColor = ConsoleColor.White;
+//Console.BackgroundColor = ConsoleColor.White;
+//Console.ForegroundColor = ConsoleColor.Black;
+//Console.WriteLine("Hi. Please, enter a word yo want to reverse:");
 
-Console.ForegroundColor = ConsoleColor.Black;
+//string show = Reverse(Console.ReadLine());
 
-Console.WriteLine("Hi. Please, enter a word yo want to reverse:");
+//Console.WriteLine(show);
 
-string show = Reverse(Console.ReadLine());
+//static string Reverse(string word)
+//{
+//    char[] array = word.Trim().ToCharArray();
 
-Console.WriteLine(show);
+//    string result = "";
 
-static string Reverse(string word)
-{
-    char[] array = word.Trim().ToCharArray();
+//    for (int i = array.Length - 1; i >= 0; i--)
+//    {
+//        result += array[i];
+//    }
 
-    string result = "";
-
-    for (int i = array.Length - 1; i >= 0; i--)
-    {
-        result += array[i];
-    }
-
-    return result;
-}
+//    return result;
+//}
 
 #endregion

@@ -1,8 +1,14 @@
 ﻿<Properties StartupConfiguration="{957398D3-3529-4688-9731-717A3A4CCCFF}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Heap-Stack PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Heap-Stack/Program.cs">
     <Files>
-      <File FileName="Heap-Stack/Program.cs" Line="15" Column="1" />
+      <File FileName="Heap-Stack/Program.cs" Line="55" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,10 +22,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Heap-Stack PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
